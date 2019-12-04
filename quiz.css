@@ -1,0 +1,86 @@
+body {
+   
+ body{ font: sans-serif; }
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #6A5ACD;
+  border: none;
+  color: #000000;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 500px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+ 
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+ 
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+ 
+.button:hover span {
+  padding-right: 25px;
+}
+ 
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.title{
+font-family:Trebuchet MS;
+font-size: 40px;
+  padding: 20px;
+
+}
+.buttonNext {
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.buttonNext {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #000000;
+}
+ 
+.buttonNext:hover {
+    background-color: #6A5ACD;
+    color: Black;
+}
+
+a{
+  border: 2px solid #000000;
+  background-color: #AFEEEE;
+  color: #000000;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 100px;
+}
+
+a:link    {color:black; background-color:transparent; text-decoration:none}
+a:visited {color:black; background-color:transparent; text-decoration:none}

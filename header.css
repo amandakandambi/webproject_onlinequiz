@@ -1,0 +1,24 @@
+
+
+#nav{
+	border:0;
+	padding:5px;
+	margin:auto;
+	text-align:center;
+	font-family:Trebuchet MS;
+	color :#000000;
+	background-color:transparent;
+}
+
+ul#menu li {
+	display: inline;
+	font-size:120%;
+	padding: 10px 30px;
+	
+}
+
+
+
+
+
+
